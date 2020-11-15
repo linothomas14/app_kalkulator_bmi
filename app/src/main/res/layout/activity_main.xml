@@ -30,7 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
-            android:text="Laki-Laki" />
+            android:text="Laki-Laki"
+            android:checked="true"/>
 
         <RadioButton
             android:id="@+id/btn_perempuan"
@@ -64,8 +65,7 @@
         android:id="@+id/et_tinggi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:enabled="false"/>
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btn_hitung"
@@ -74,8 +74,7 @@
         android:layout_marginTop="20dp"
         android:background="@color/colorYellow"
         android:text="Hitung"
-        android:textSize="20dp"
-        android:enabled="false"/>
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/tv_hasil"
